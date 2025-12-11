@@ -123,7 +123,6 @@ $(document).ready(function () {
 
 function startRebus(arg) {
 	$("#melody").attr("src", `sound/${arg}.mp3`);
-	console.log(num);
 }
 
 function startTime() {
