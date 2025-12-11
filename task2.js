@@ -132,7 +132,7 @@ function startTime() {
 		$(".time").val(time).trigger('change');
 		if (time == 0) {
 			alertify.error("Time is out!");
-			setTimeout(() => window.open("https://sashacoders.github.io/Online-Quest/index.html", "_self", false), 2000);
+			setTimeout(() => window.open("https://sashacoders.github.io/Online-Quest/", "_self", false), 2000);
 			timeStorage.removeItem("time");
 			localStorage.removeItem("time");
 		} else if (time > 0) {
