@@ -82,7 +82,7 @@ $(document).ready(function () {
 	});
 
 
-	console.log(num);
+	// console.log(num);
 
 	
 	$("#start").click(function () {
