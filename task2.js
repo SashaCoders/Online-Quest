@@ -132,7 +132,7 @@ function startTime() {
 		$(".time").val(time).trigger('change');
 		if (time == 0) {
 			alertify.error("Time is out!");
-			setTimeout(() => window.open("file:///C:/Users/podle/OneDrive/%D0%A0%D0%BE%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D1%96%D0%BB/Task%2004.04.2025%20-%2018.04.2025/Taskk/task1.html", "_self", false), 2000);
+			setTimeout(() => window.open("https://sashacoders.github.io/Online-Quest/index.html", "_self", false), 2000);
 			timeStorage.removeItem("time");
 			localStorage.removeItem("time");
 		} else if (time > 0) {
